@@ -1,69 +1,60 @@
 <!DOCTYPE html>
-<html lang="en">
+<html>
 
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta http-equiv="X-UA-Compatible" content="ie=edge">
-    <link href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" rel="stylesheet"
-        integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
     <link rel="stylesheet" href="assets/css/style.css">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
     <title>Contact</title>
 </head>
 
-<body>87
-    <nav class="navbar bg-light py-0" style="border-bottom: 3px solid #cccccc;">
-        <div class="container" style="padding-right: 0; padding-left: 0;">
-            <span class="navbar-brand mb-0 h1 fullname"><strong>Daniel Bryant</strong></span>
-            <ul class="nav justify-content-end">
-                <li class="nav-item">
-                    <a class="nav-link active" href="index.html">About</a>
-                </li>
-                <li class="nav-item">
-                    <a class="nav-link idlink" href="portfolio.html">Portfolio</a>
-                </li>
-                <li class="nav-item">
-                    <a class="nav-link" href="contact.html">Contact</a>
-                </li>
-            </ul>
+<body style="margin: 0;">
+    <div id="window1">
+        <div id="headgod">
+            <div id="headbox">
+                <div id="headbox1">
+                    <strong>Daniel Bryant</strong>
+                </div>
+                <div id="headbox2">
+                    <a href="index.html">About</a>
+                    <a href="portfolio.html" id="idlink">Portfolio</a>
+                    <a href="#">Contact</a>
+                </div>
+            </div>
         </div>
-    </nav>
 
-    <div class="container card" style="margin-top: 30px; margin-bottom: 100px;">
-        <div class="row">
-            <div class="col" style="padding: 30px;">
-                <div class="row">
-                    <div class="col aboutme" style="padding-bottom: 20px;">
+        <div id="mainbody">
+            <div id="textbody">
+                <div id="space">
+                    <div id="aboutme">
                         <strong>Contact</strong>
                     </div>
-                </div>
-                <div class="row pt-3">
-                    <div class="col">
-                        <form>
-                            <div class="form-group">
-                                    <label for="Name">Name</label>
-                                <input type="text" class="form-control" placeholder="John Smith">
-                            </div>
-                            <div class="form-group">
-                                <label for="Email">Email address</label>
-                                <input type="email" class="form-control" id="#" placeholder="example@gmail.com">
-                            </div>
-                            <div class="form-group">
-                                <label for="Message">Message</label>
-                                <textarea class="form-control" id="#" rows="3"></textarea>
-                            </div>
-                        </form>
-                        <button type="button" class="btn btn-info">Submit</button>
+                    <div id="text">
+                        Name
+                        <br>
+                        <input type="text" placeholder="   John Smith">
+                        <br>
+                        <br>
+                        Email
+                        <br>
+                        <input type="text" placeholder="   example@gmail.com">
+                        <br>
+                        <br>
+                        Message
+                        <br>
+                        <textarea style="height: 100px;"></textarea>
+                        <br>
+                        <br>
+                        <button id="Submit">Submit</button>
                     </div>
                 </div>
             </div>
         </div>
+        <div id="footerbar">
+            Copywrite ©
+        </div>
+
     </div>
 
-    <div id="footerbar">
-        Copywrite ©
-    </div>
 </body>
 
 </html>
