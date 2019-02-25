@@ -305,23 +305,36 @@ textarea {
     width: 490px;
     height: 490px;
     margin-right: 0;
+    margin-left: 10px;
     margin-bottom: 20px;
   }
   #rpg {
     width: 490px;
     height: 490px;
-    margin-left: 0;
+    margin-left: 10px;
+    margin-bottom: 20px;
   }
   #trivia {
-    width: 500px;
-    height: 500px;
+    width: 490px;
+    height: 490px;
+    margin-right: 0;
+    margin-left: 10px;
+    margin-bottom: 20px;
   }
   #widget {
-    width: 500px;
-    height: 500px;
+    width: 490px;
+    height: 490px;
+    margin-left: 10px;
+    margin-bottom: 20px;
   }
   #rps {
-    width: 500px;
-    height: 500px;
+    width: 490px;
+    height: 490px;
+    margin-left: 10px;
+  }
+  .gbar {
+    margin-top: 72%;
+    padding: 35px;
+    font-size: 40px;
   }
 }
